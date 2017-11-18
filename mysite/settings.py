@@ -25,7 +25,10 @@ SECRET_KEY = '!l23&i*a6*gucd#vvt=4=azb2hduyghg9jv%1n&5%vl@_)&5ag'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'ottertiedye.pythonanywhere.com'
+]
 
 
 # Application definition
